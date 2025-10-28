@@ -5,7 +5,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\FEx\src\FEx.Flurlx\FEx.Flurlx.csproj" />
+	  <PackageReference Include="Flurl.Http.Newtonsoft" Version="0.9.1" />
+	  <PackageReference Include="System.Text.Json" Version="9.0.10" />
 	</ItemGroup>
 
 </Project>
